@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"net"
 
-	"github.com/dpcamargo/fullcycle-grpc/database"
+	"github.com/dpcamargo/fullcycle-grpc/internal/database"
 	"github.com/dpcamargo/fullcycle-grpc/internal/pb"
 	"github.com/dpcamargo/fullcycle-grpc/internal/service"
 	_ "github.com/mattn/go-sqlite3"
